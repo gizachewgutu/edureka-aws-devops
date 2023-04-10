@@ -1,0 +1,35 @@
+1  clear
+    2  apt update -y
+    3  clear
+    4  apt install docker.io -y
+    5  docker version
+    6  docker --version
+    7  docker vi Dockerfile
+    8  mkdir Dockerfile
+    9  cd Dockerfile
+   10  docker vi Dockerfile
+   11  vi Dockerfile
+   12  ls -l
+   13  vi index.html
+   14  ls -l
+   15  docker build . -t nginx1
+   16  dacker images
+   17  docker images
+   18  aws version
+   19  install awscli -y
+   20  apt install awscli -y
+   21  ls
+   22  cd Dockerfile
+   23  ls
+   24  apt install awscli -y
+   25  aws version
+   26  aws --version
+   27  clear
+   28  aws configure
+   29  clear
+   30  docker tag nginx1 014160211032.dkr.ecr.us-west-2.amazonaws.com/lancasterisd
+   31  aws ecr get-login --no-include-email
+   32  docker login -u AWS -p eyJwYXlsb2FkIjoiL25kbUxURlQrcy9FWW5UVlRJSWpHVUJmZmw1MFBpZVc3RkxoMmMrVUFIT1o4Yk9ZSDc2ZzM2djZZMDZLNW15ODlZbEtPVFVDN2JkUEtKc3djTjNOVUg4S2duYUZRM2FEMUZzeWl4anNkb2ovaHM2Q05sd3hlbEYweDJGNDJPTUVIRE8zRHpDdUlib3dKbnBhRDBOL1VTaTBOU3VjRGM1YnorcmFxdUpQaFp6WGVYNkZPbjdTQmVrOVJjU2xid1lwdkYyQ1k1OFVvamdlQzZ3b3VYQy8zOHdvaFAwYk9YcnkrSXJLYWhkUVNWT3Q2VHJmclpyU3N2YzNJZXV1eStuTk5BajNjeVovbVhBWFZQYlo2WjVqTDN3cU5xYVBxNWcvUjNaTCtycDgvTEgyM25JZFo5WEQvREFrdmo5Z05pRkpHaTZSZTh2eE53ZkF3WjhYTVRUaTd3VldxalJKK0FQeGlHY3hleEh4dTRIdU9XeDVYZno0NlJ6d25kWUdxU0JWRndtQTFMNU84QWhadUt3bHlZVTJ2NFlSNFpVQ3FWSnE0dkJncU1BUmh5RjZ5N3ZDcEhGRDRzNkJYaHNMWWlXVXRidjJKZHNVREw3bVVZVXF6VzZrUXJNeGRjMmZWQzZhc215YWpncml6U05mejZ6RlBDODExeC81YVVSUGFacXNQSmc2Y0xqSnZFN0wrWmNrR0N5TFZkS3g4eDlhOWZPSGQwWjM3TGE3dkx1dGVxWXVhUmMwZGZGbHhISS9rRVFzaVlOd09QRGxyUUhML2cxcThpRS82UHRKdmxZTU1zSGpKVVF6bWhtU0tFZk1pNHdDUVhaaHp0R2t4TkJNcjdvK3BiblpZZjRxdkZEcGx2ZlNkYWVFYlB0Y3hraGZXaVcwanRhMDlYalZZUyttak5RNGUzWUZINlhHWGdEL1o2M3hJZENhS1NkWGZPc2Nib1BaVlFGN3g1Z2g5MHc1TWxHTUdhVksybWtWQXFrOWY5WEVPWVJzbkpLOEoyZDJ5cFdqUCthMnBWN09ldHRxM2thaUJjdVdSUnFXTW9ka2tGUFFiU2N0cGJ1SEl2Q0dTS09wbG14OGpaYXhOR1dzWDYrZlVyTUtjYklDWU11MFB0ZlRld0pSNkUwR2FZSXNMOE5UeGVuM1h0UThnZ1FCSWE1Zk9XQ0xRZTIxbjhNaE5obTJpc3ZuSGpkOWQ3RkhSeUk2NmdyT2xWNUhPaXlqbC9XWGtkdEt0V2VCS2wvNzU3U2I1RWl4TjRLR282bWE4eHY1eCtVWkZGSzkzSVQ5cS8xcitnaEhQU1RUTENkRHliOVpyYTlOMFowZ2Q5ZDhwNjhIMnVmamFNUWtheXZobys1QlcrYUMrQTYwVG9KdURHdDJoMVhrZStCOXkyK2pJcVF4N3c9PSIsImRhdGFrZXkiOiJBUUVCQUhqNmxjNFhJSncvN2xuMEhjMDBETWVrNkdFeEhDYlk0UklwVE1DSTU4SW5Vd0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVERjR2RVE3eW41bzBhMHJkQUFJQkVJQTc3L2hhaGNBaGRhYmpSZ1lJc0NWODl6R0o2VXVsSDVYcUlJRkdJY1hCRWl1NXBsdllXZmpKVjdHSHR4cStsdHM2S243ak8wRktJVjh1dmEwPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTY4MTIxMjEwOX0= https://014160211032.dkr.ecr.us-west-2.amazonaws.com
+   33  docker push 014160211032.dkr.ecr.us-west-2.amazonaws.com/lancasterisd
+   34  history
+root@ip-172-31-28-246:~
